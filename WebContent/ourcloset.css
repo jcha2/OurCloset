@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+	font-family: '함초롬돋움', monospace;
+}
+
+body, html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	width: 100%;
+}
+
+body {
+	position: relative;
+	min-width: 10px;
+	min-height: 10px;
+	overflow: auto;
+}
+
+a {
+	padding: 2%;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: green;
+}
+
+a:active {
+	color: #79ABFF;
+}
